@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NODE_25_length_96542_cov_132.867873_84 -             87 RNA_pol_Rpb6         PF01192.17    57   2.9e-07   24.5   0.0   1   1   1.3e-09   3.4e-07   24.2   0.0     7    55    15    63     7    65 0.91 # 84568 # 84828 # -1 # ID=9_84;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.563
+NODE_104_length_17257_cov_130.688967_7 -            315 TruB_N               PF01509.13   149   6.8e-42  137.4   0.0   1   1   3.6e-44   9.4e-42  136.9   0.0     5   149    29   175    24   175 0.96 # 9563 # 10507 # -1 # ID=6_7;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.586
+NODE_104_length_17257_cov_130.688967_11 -            657 IF-2                 PF11987.3    109   1.1e-43  141.8   0.7   1   1   1.6e-45   4.2e-43  139.9   0.7     2   109   440   547   439   547 0.98 # 12148 # 14118 # -1 # ID=6_11;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.562
+NODE_108_length_16566_cov_135.380193_6 -            886 TIGR00422            TIGR00422    863         0 1153.5   0.0   1   1         0         0 1153.3   0.0     2   861     7   864     6   866 0.97 # 7394 # 10051 # 1 # ID=4_6;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.552
+NODE_104_length_17257_cov_130.688967_3 -            930 TIGR00422            TIGR00422    863  1.1e-141  467.4   0.0   1   2   1.2e-42   7.5e-41  133.8   0.0     8   233    21   253    14   259 0.93 # 2920 # 5709 # -1 # ID=6_3;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=11-12bp;gc_cont=0.556
+NODE_104_length_17257_cov_130.688967_3 -            930 TIGR00422            TIGR00422    863  1.1e-141  467.4   0.0   2   2    2e-102  1.3e-100  331.6   0.0   238   733   294   815   282   844 0.93 # 2920 # 5709 # -1 # ID=6_3;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=11-12bp;gc_cont=0.556
+NODE_25_length_96542_cov_132.867873_17 -            468 TIGR00422            TIGR00422    863   5.7e-05   15.1   0.0   1   2   0.00089     0.058    5.2   0.0    42    78    31    67    13    77 0.89 # 15265 # 16668 # 1 # ID=9_17;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.589
+NODE_25_length_96542_cov_132.867873_17 -            468 TIGR00422            TIGR00422    863   5.7e-05   15.1   0.0   2   2   0.00014    0.0089    7.9   0.0   483   579   224   318   204   359 0.77 # 15265 # 16668 # 1 # ID=9_17;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;gc_cont=0.589
+NODE_25_length_96542_cov_132.867873_95 -            329 TIGR00422            TIGR00422    863    0.0018   10.2   0.3   1   2      0.05       3.2   -0.6   0.1    44    53    10    19     9    27 0.85 # 91989 # 92975 # -1 # ID=9_95;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.571
+NODE_25_length_96542_cov_132.867873_95 -            329 TIGR00422            TIGR00422    863    0.0018   10.2   0.3   2   2   0.00012    0.0077    8.1   0.0   519   536   186   203   178   214 0.87 # 91989 # 92975 # -1 # ID=9_95;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.571
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /tmp/67eee7b3-3734-4def-95b0-93df5312c469
+# Target file:     ./MetaBAT1.v2/CheckM/bins/MetaBAT1.v2.bin.4/genes.faa
+# Option settings: hmmsearch --domtblout ./MetaBAT1.v2/CheckM/bins/MetaBAT1.v2.bin.4/hmmer.tree.txt --noali --notextw -E 0.1 --domE 0.1 --cpu 4 /tmp/67eee7b3-3734-4def-95b0-93df5312c469 ./MetaBAT1.v2/CheckM/bins/MetaBAT1.v2.bin.4/genes.faa 
+# Current dir:     /home/labs/fouke_lab/MetaG.DuPont/S1.UIUC.NovaSeq/SPAdes.S1.UIUC.Assembly.norm.All
+# Date:            Sat Jun  1 02:16:07 2019
+# [ok]

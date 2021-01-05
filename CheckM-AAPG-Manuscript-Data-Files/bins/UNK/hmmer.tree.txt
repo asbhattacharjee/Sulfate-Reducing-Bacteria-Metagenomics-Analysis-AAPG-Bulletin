@@ -1,0 +1,13 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /tmp/469176cb-326e-424c-8bbe-8da3c5091847
+# Target file:     ./MetaBAT1.v2/CheckM/bins/MetaBAT1.v2.bin.5/genes.faa
+# Option settings: hmmsearch --domtblout ./MetaBAT1.v2/CheckM/bins/MetaBAT1.v2.bin.5/hmmer.tree.txt --noali --notextw -E 0.1 --domE 0.1 --cpu 4 /tmp/469176cb-326e-424c-8bbe-8da3c5091847 ./MetaBAT1.v2/CheckM/bins/MetaBAT1.v2.bin.5/genes.faa 
+# Current dir:     /home/labs/fouke_lab/MetaG.DuPont/S1.UIUC.NovaSeq/SPAdes.S1.UIUC.Assembly.norm.All
+# Date:            Sat Jun  1 02:16:07 2019
+# [ok]
